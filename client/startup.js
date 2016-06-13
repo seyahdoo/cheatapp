@@ -10,6 +10,7 @@ Meteor.startup(() => {
         storageBucket: "project-6738432073580211766.appspot.com"
     });
     
+    
     //TODO consider doing this way.
     //if authenticated redirect to channels
     //else redirect to loginPage
