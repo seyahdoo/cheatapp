@@ -1,0 +1,8 @@
+<ul>
+  <li ng-repeat="channel in channelList.channels">
+    <a ui-sref="chatView({ channelId: channel.id })">
+      {{channel.name}}
+    </a>
+    <p>{{channel.description}}</p>
+  </li>
+</ul>

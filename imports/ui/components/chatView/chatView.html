@@ -1,0 +1,11 @@
+showing channel: {{ chatView.channelId }}
+
+<ul>
+  <li ng-repeat="message in chatView.messages">
+    <a>
+      {{message.uid}} : {{message.text}}
+    </a>
+  </li>
+</ul>
+
+<send-message-box></send-message-box>
